@@ -83,7 +83,7 @@ _C.EVAL.RESULT_LOGGER_NAME = './results/results.txt'
 # Name of the dictionary that stores the results
 _C.EVAL.RESULT_DIC_NAME = ''
 # Qubit threshold for comparison with exact solution for vqls problem type
-_C.EVAL.EXACT_TEST_THRESHOLD = 20
+_C.EVAL.EXACT_TEST_THRESHOLD = 16
 
 def get_cfg_defaults():
     """Get a yacs CfgNode object with default values for the project."""

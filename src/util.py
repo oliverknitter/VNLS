@@ -68,6 +68,7 @@ def plot_training_loss(prob_type, qubits, epochs, values, fidelities = None):
     plt.ylabel('Training Loss')
     plt.title('Training loss of '+str(qubits)+'-qubit VNLS problem.')
     plt.savefig('./results/plots/{}_{}_loss.png'.format(prob_type, qubits))
+    np.save('./results/arrays/{}_{}_losses.npy'.format(prob_type, qubits), values)
     if fidelities is not None:
         #plt.clf()
         #plt.plot(epoch_range, 10*np.sqrt(values), label='Loss Bound')
@@ -85,5 +86,6 @@ def plot_training_loss(prob_type, qubits, epochs, values, fidelities = None):
         plt.ylabel('Fidelity')
         plt.title('Fidelity of learned solution for '+str(qubits)+'-qubit VNLS problem.')
         plt.savefig('./results/plots/{}_{}_fidelity.png'.format(prob_type, qubits))
+        np.save('./results/arrays/{}_{}_fidelities.npy'.format(prob_type, qubits), fidelities)
     
     plt.close()

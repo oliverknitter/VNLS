@@ -53,7 +53,7 @@ def train_one_batch(model, sampler, criterion, hamiltonian, optimizer, scheduler
 def train(cfg):
     # set hyper-parameters
     # settings
-    exact_test_threshold = cfg.EVAL.EXACT_TEST_THRESHOLD # Default threshold for conducting exact testing for VQLS solution is at most 20 qubits.
+    exact_test_threshold = cfg.EVAL.EXACT_TEST_THRESHOLD # Default threshold for conducting exact testing for VQLS solution is at most 16 qubits.
     prob_type = cfg.DATA.PROBLEM_TYPE
     num_sites = cfg.DATA.NUM_SITES
     device = torch.device('cuda:0' if (cfg.SYSTEM.NUM_GPUS > 0) else 'cpu')
