@@ -1,0 +1,9 @@
+VNLS Hyperparameters
+
+Real RBM, Trained Using SGD with SR
+Number of hidden units equals number of visible units.
+
+Learning Rate 0.005
+Batch Size 128
+Epochs 1000
+Monte Carlo Chains 8
