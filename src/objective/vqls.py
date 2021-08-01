@@ -171,18 +171,16 @@ class VQLS(Hamiltonian):
             values += entries*self.b_eval(columns)
         return values
     
-    def b_means(self, num_means, model, batch_size = 128): # Samples a batch of confirguations from |b|^2 and averages the corresponding local energies of A.
-        means = torch.zeros(num_means)
-        for i in range(num_means):
-            b_samples = self.b_sampler(batch_size)
-            b_vals = self.b_eval(b_samples)
-            energies = self.row_product(b_samples, self.A, model)/b_vals
-            means[i] = torch.mean(energies)
-        return means
+    def b_mean(self, model, batch_size = 128): # Samples a batch of confirguations from |b|^2 and averages the corresponding local energies of A.
+        b_samples = self.b_sampler(batch_size)
+        b_vals = self.b_eval(b_samples)
+        energies = self.row_product(b_samples, self.A, model)/b_vals
+        mean = torch.mean(energies)
+        return mean
 
     def compute_local_energy(self, samples, model): # Computes the local energy of the VQLS Hamiltonian.
-        means = self.b_means(samples.shape[0], model, samples.shape[0]) # Currently set to compute local energy for b_configurations in sample batches of size num_sites.
-        local_energy = self.row_product(samples, self.A_squared, model) - self.b_row_product(samples, self.A)*means
+        mean = self.b_mean(model, samples.shape[0]) # Currently set to compute local energy for b_configurations in sample batches of size num_sites.
+        local_energy = self.row_product(samples, self.A_squared, model) - self.b_row_product(samples, self.A)*mean
         log_psi = model(samples)
         return local_energy/log_psi.exp(), log_psi
 
