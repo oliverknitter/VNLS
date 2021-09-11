@@ -5,5 +5,5 @@ Number of hidden units equals number of visible units.
 
 Learning Rate 0.005
 Batch Size 512
-Epochs 1000
+Epochs 1500
 Monte Carlo Chains 8
