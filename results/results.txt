@@ -1,92 +1,91 @@
-=============== train-sgd-vqls-constant-True-2-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-3-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-4-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-5-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-6-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-7-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-8-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-9-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-10-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-11-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-12-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-13-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-14-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-15-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-16-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-17-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-18-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-19-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-20-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-21-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-22-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-23-1024-1500-0.005-8-rbm_c ===============
-=============== train-sgd-vqls-constant-True-24-1024-1500-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-2-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-3-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-5-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-6-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-7-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-8-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-9-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-10-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-11-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-12-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-13-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-14-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-15-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-16-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-17-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-18-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-19-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-20-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-21-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-22-1024-1000-0.005-8-rbm_c ===============
 Trial - 1
-[VMC--vqls, 2] Best Score -0.0018, Time elapsed 263.45
-[train-sgd-vqls-constant-True-2-1024-1500-0.005-8-rbm_c][vqls-2] Score -0.0018, Time elapsed 263.4486, over 1 trials
+[VMC--vqls, 2] Best Score 0.0000, Time elapsed 176.83
+[train-sgd-vqls-one_sparse-True-2-1024-1000-0.005-8-rbm_c][vqls-2] Score 0.0000, Time elapsed 176.8318, over 1 trials
+=============== train-sgd-vqls-one_sparse-True-23-1024-1000-0.005-8-rbm_c ===============
+=============== train-sgd-vqls-one_sparse-True-24-1024-1000-0.005-8-rbm_c ===============
 Trial - 1
-[VMC--vqls, 3] Best Score 0.0000, Time elapsed 316.71
-[train-sgd-vqls-constant-True-3-1024-1500-0.005-8-rbm_c][vqls-3] Score 0.0000, Time elapsed 316.7077, over 1 trials
+[VMC--vqls, 3] Best Score 0.0000, Time elapsed 225.96
+[train-sgd-vqls-one_sparse-True-3-1024-1000-0.005-8-rbm_c][vqls-3] Score 0.0000, Time elapsed 225.9633, over 1 trials
 Trial - 1
-[VMC--vqls, 4] Best Score 0.0000, Time elapsed 411.43
-[train-sgd-vqls-constant-True-4-1024-1500-0.005-8-rbm_c][vqls-4] Score 0.0000, Time elapsed 411.4339, over 1 trials
+[VMC--vqls, 4] Best Score 0.0000, Time elapsed 273.89
+[train-sgd-vqls-one_sparse-True-4-1024-1000-0.005-8-rbm_c][vqls-4] Score 0.0000, Time elapsed 273.8888, over 1 trials
 Trial - 1
-[VMC--vqls, 5] Best Score 0.0000, Time elapsed 483.93
-[train-sgd-vqls-constant-True-5-1024-1500-0.005-8-rbm_c][vqls-5] Score 0.0000, Time elapsed 483.9320, over 1 trials
+[VMC--vqls, 5] Best Score 0.0000, Time elapsed 354.15
+[train-sgd-vqls-one_sparse-True-5-1024-1000-0.005-8-rbm_c][vqls-5] Score 0.0000, Time elapsed 354.1469, over 1 trials
 Trial - 1
-[VMC--vqls, 6] Best Score 0.0000, Time elapsed 667.91
-[train-sgd-vqls-constant-True-6-1024-1500-0.005-8-rbm_c][vqls-6] Score 0.0000, Time elapsed 667.9105, over 1 trials
+[VMC--vqls, 6] Best Score 0.0000, Time elapsed 437.86
+[train-sgd-vqls-one_sparse-True-6-1024-1000-0.005-8-rbm_c][vqls-6] Score 0.0000, Time elapsed 437.8571, over 1 trials
 Trial - 1
-[VMC--vqls, 7] Best Score 0.0000, Time elapsed 832.02
-[train-sgd-vqls-constant-True-7-1024-1500-0.005-8-rbm_c][vqls-7] Score 0.0000, Time elapsed 832.0213, over 1 trials
+[VMC--vqls, 7] Best Score 0.0000, Time elapsed 564.33
+[train-sgd-vqls-one_sparse-True-7-1024-1000-0.005-8-rbm_c][vqls-7] Score 0.0000, Time elapsed 564.3325, over 1 trials
 Trial - 1
-[VMC--vqls, 8] Best Score 0.0000, Time elapsed 1025.59
-[train-sgd-vqls-constant-True-8-1024-1500-0.005-8-rbm_c][vqls-8] Score 0.0000, Time elapsed 1025.5893, over 1 trials
+[VMC--vqls, 8] Best Score 0.0000, Time elapsed 677.83
+[train-sgd-vqls-one_sparse-True-8-1024-1000-0.005-8-rbm_c][vqls-8] Score 0.0000, Time elapsed 677.8264, over 1 trials
 Trial - 1
-[VMC--vqls, 10] Best Score 0.0000, Time elapsed 1546.99
-[train-sgd-vqls-constant-True-10-1024-1500-0.005-8-rbm_c][vqls-10] Score 0.0000, Time elapsed 1546.9882, over 1 trials
+[VMC--vqls, 9] Best Score 0.0000, Time elapsed 820.59
+[train-sgd-vqls-one_sparse-True-9-1024-1000-0.005-8-rbm_c][vqls-9] Score 0.0000, Time elapsed 820.5904, over 1 trials
 Trial - 1
-[VMC--vqls, 11] Best Score 0.0000, Time elapsed 1835.85
-[train-sgd-vqls-constant-True-11-1024-1500-0.005-8-rbm_c][vqls-11] Score 0.0000, Time elapsed 1835.8543, over 1 trials
+[VMC--vqls, 10] Best Score 0.0000, Time elapsed 1016.57
+[train-sgd-vqls-one_sparse-True-10-1024-1000-0.005-8-rbm_c][vqls-10] Score 0.0000, Time elapsed 1016.5691, over 1 trials
 Trial - 1
-[VMC--vqls, 9] Best Score 0.0000, Time elapsed 1816.62
-[train-sgd-vqls-constant-True-9-1024-1500-0.005-8-rbm_c][vqls-9] Score 0.0000, Time elapsed 1816.6180, over 1 trials
+[VMC--vqls, 11] Best Score 0.0000, Time elapsed 1223.41
+[train-sgd-vqls-one_sparse-True-11-1024-1000-0.005-8-rbm_c][vqls-11] Score 0.0000, Time elapsed 1223.4143, over 1 trials
 Trial - 1
-[VMC--vqls, 12] Best Score 0.0000, Time elapsed 2229.79
-[train-sgd-vqls-constant-True-12-1024-1500-0.005-8-rbm_c][vqls-12] Score 0.0000, Time elapsed 2229.7901, over 1 trials
+[VMC--vqls, 12] Best Score 0.0000, Time elapsed 1461.05
+[train-sgd-vqls-one_sparse-True-12-1024-1000-0.005-8-rbm_c][vqls-12] Score 0.0000, Time elapsed 1461.0524, over 1 trials
 Trial - 1
-[VMC--vqls, 13] Best Score 0.0000, Time elapsed 2663.94
-[train-sgd-vqls-constant-True-13-1024-1500-0.005-8-rbm_c][vqls-13] Score 0.0000, Time elapsed 2663.9357, over 1 trials
+[VMC--vqls, 13] Best Score 0.0000, Time elapsed 1738.58
+[train-sgd-vqls-one_sparse-True-13-1024-1000-0.005-8-rbm_c][vqls-13] Score 0.0000, Time elapsed 1738.5771, over 1 trials
 Trial - 1
-[VMC--vqls, 14] Best Score 0.0000, Time elapsed 3131.24
-[train-sgd-vqls-constant-True-14-1024-1500-0.005-8-rbm_c][vqls-14] Score 0.0000, Time elapsed 3131.2383, over 1 trials
+[VMC--vqls, 14] Best Score 0.0000, Time elapsed 2036.58
+[train-sgd-vqls-one_sparse-True-14-1024-1000-0.005-8-rbm_c][vqls-14] Score 0.0000, Time elapsed 2036.5768, over 1 trials
 Trial - 1
-[VMC--vqls, 15] Best Score 0.0000, Time elapsed 3634.25
-[train-sgd-vqls-constant-True-15-1024-1500-0.005-8-rbm_c][vqls-15] Score 0.0000, Time elapsed 3634.2542, over 1 trials
+[VMC--vqls, 15] Best Score 0.0000, Time elapsed 2379.05
+[train-sgd-vqls-one_sparse-True-15-1024-1000-0.005-8-rbm_c][vqls-15] Score 0.0000, Time elapsed 2379.0508, over 1 trials
 Trial - 1
-[VMC--vqls, 16] Best Score 0.0000, Time elapsed 4039.35
-[train-sgd-vqls-constant-True-16-1024-1500-0.005-8-rbm_c][vqls-16] Score 0.0000, Time elapsed 4039.3461, over 1 trials
+[VMC--vqls, 16] Best Score 0.0000, Time elapsed 2576.52
+[train-sgd-vqls-one_sparse-True-16-1024-1000-0.005-8-rbm_c][vqls-16] Score 0.0000, Time elapsed 2576.5202, over 1 trials
 Trial - 1
-[VMC--vqls, 17] Best Score 0.0000, Time elapsed 4791.36
-[train-sgd-vqls-constant-True-17-1024-1500-0.005-8-rbm_c][vqls-17] Score 0.0000, Time elapsed 4791.3550, over 1 trials
+[VMC--vqls, 17] Best Score 0.0000, Time elapsed 3121.89
+[train-sgd-vqls-one_sparse-True-17-1024-1000-0.005-8-rbm_c][vqls-17] Score 0.0000, Time elapsed 3121.8918, over 1 trials
 Trial - 1
-[VMC--vqls, 18] Best Score 0.0000, Time elapsed 5407.19
-[train-sgd-vqls-constant-True-18-1024-1500-0.005-8-rbm_c][vqls-18] Score 0.0000, Time elapsed 5407.1895, over 1 trials
+[VMC--vqls, 18] Best Score 0.0000, Time elapsed 3507.91
+[train-sgd-vqls-one_sparse-True-18-1024-1000-0.005-8-rbm_c][vqls-18] Score 0.0000, Time elapsed 3507.9062, over 1 trials
 Trial - 1
-[VMC--vqls, 19] Best Score -0.0008, Time elapsed 6231.85
-[train-sgd-vqls-constant-True-19-1024-1500-0.005-8-rbm_c][vqls-19] Score -0.0008, Time elapsed 6231.8532, over 1 trials
+[VMC--vqls, 19] Best Score 0.0000, Time elapsed 4003.61
+[train-sgd-vqls-one_sparse-True-19-1024-1000-0.005-8-rbm_c][vqls-19] Score 0.0000, Time elapsed 4003.6120, over 1 trials
 Trial - 1
-[VMC--vqls, 20] Best Score 0.0000, Time elapsed 7033.22
-[train-sgd-vqls-constant-True-20-1024-1500-0.005-8-rbm_c][vqls-20] Score 0.0000, Time elapsed 7033.2214, over 1 trials
+[VMC--vqls, 20] Best Score 0.0000, Time elapsed 4492.51
+[train-sgd-vqls-one_sparse-True-20-1024-1000-0.005-8-rbm_c][vqls-20] Score 0.0000, Time elapsed 4492.5052, over 1 trials
 Trial - 1
-[VMC--vqls, 21] Best Score 0.0000, Time elapsed 8007.43
-[train-sgd-vqls-constant-True-21-1024-1500-0.005-8-rbm_c][vqls-21] Score 0.0000, Time elapsed 8007.4262, over 1 trials
+[VMC--vqls, 21] Best Score 0.0000, Time elapsed 5152.48
+[train-sgd-vqls-one_sparse-True-21-1024-1000-0.005-8-rbm_c][vqls-21] Score 0.0000, Time elapsed 5152.4818, over 1 trials
 Trial - 1
-[VMC--vqls, 22] Best Score 0.0000, Time elapsed 8927.91
-[train-sgd-vqls-constant-True-22-1024-1500-0.005-8-rbm_c][vqls-22] Score 0.0000, Time elapsed 8927.9126, over 1 trials
+[VMC--vqls, 22] Best Score 0.0000, Time elapsed 6424.04
+[train-sgd-vqls-one_sparse-True-22-1024-1000-0.005-8-rbm_c][vqls-22] Score 0.0000, Time elapsed 6424.0391, over 1 trials
 Trial - 1
-[VMC--vqls, 23] Best Score 0.0000, Time elapsed 10112.22
-[train-sgd-vqls-constant-True-23-1024-1500-0.005-8-rbm_c][vqls-23] Score 0.0000, Time elapsed 10112.2153, over 1 trials
+[VMC--vqls, 23] Best Score 0.0000, Time elapsed 6500.23
+[train-sgd-vqls-one_sparse-True-23-1024-1000-0.005-8-rbm_c][vqls-23] Score 0.0000, Time elapsed 6500.2283, over 1 trials
 Trial - 1
-[VMC--vqls, 24] Best Score 0.0000, Time elapsed 11179.45
-[train-sgd-vqls-constant-True-24-1024-1500-0.005-8-rbm_c][vqls-24] Score 0.0000, Time elapsed 11179.4470, over 1 trials
+[VMC--vqls, 24] Best Score 0.0000, Time elapsed 7073.92
+[train-sgd-vqls-one_sparse-True-24-1024-1000-0.005-8-rbm_c][vqls-24] Score 0.0000, Time elapsed 7073.9196, over 1 trials
