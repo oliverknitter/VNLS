@@ -20,7 +20,7 @@ eval "$(conda shell.bash hook)"
 conda activate qmc
 module load gcc/8.2.0
 
-python -m main --config_file='./qaoa.yaml' TRAIN.OPTIMIZER_NAME sgd DATA.PROBLEM_TYPE vqls DATA.VECTOR_CHOICE constant TRAIN.APPLY_SR True DATA.NUM_SITES $1 TRAIN.BATCH_SIZE 512 TRAIN.NUM_EPOCHS 2000 TRAIN.LEARNING_RATE 0.01 DATA.NUM_CHAINS 8 MODEL.MODEL_NAME rbm_c
+python -m main --config_file='./qaoa.yaml' TRAIN.OPTIMIZER_NAME sgd DATA.PROBLEM_TYPE vqls DATA.VECTOR_CHOICE constant TRAIN.APPLY_SR True DATA.NUM_SITES $1 TRAIN.BATCH_SIZE 256 TRAIN.NUM_EPOCHS 4000 TRAIN.LEARNING_RATE 0.01 DATA.NUM_CHAINS 8 MODEL.MODEL_NAME rbm_c
 
 /bin/hostname
 sleep 60
