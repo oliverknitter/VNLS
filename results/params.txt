@@ -4,6 +4,6 @@ Complex RBM, Trained Using SGD with SR
 Number of hidden units equals number of visible units.
 
 Learning Rate 0.005
-Batch Size 256
-Epochs 4000
+Batch Size 2048
+Epochs 500
 Monte Carlo Chains 8

@@ -2,7 +2,7 @@
 #SBATCH --job-name=vnls
 #SBATCH --mail-user=knitter@umich.edu
 #SBATCH --mail-type=BEGIN,END
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=4
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32g 
